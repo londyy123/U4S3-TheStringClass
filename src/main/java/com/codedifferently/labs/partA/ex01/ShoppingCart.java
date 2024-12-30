@@ -13,7 +13,8 @@ public class ShoppingCart {
 
 
         // Use the substring method to parse out the first name and print it.
-        
+        firstName = custName.substring(0, spaceIdx);
+        response = firstName;
         return response;
     }
     public static void main(String[] args) {
