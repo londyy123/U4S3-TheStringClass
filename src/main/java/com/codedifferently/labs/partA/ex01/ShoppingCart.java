@@ -8,7 +8,7 @@ public class ShoppingCart {
         int spaceIdx;
 
         // Get the index of the space character (" ") in custName.
-        custName.indexOf(" ");
+        spaceIdx = custName.indexOf(" ");
         //hello
 
 
@@ -20,8 +20,6 @@ public class ShoppingCart {
     }
     public static void main(String[] args) {
         String nameOut = name();
-        System.out.println(nameOut);
-
 
     }
 }
