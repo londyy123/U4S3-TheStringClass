@@ -8,6 +8,7 @@ public class ShoppingCart {
         int spaceIdx;
 
         // Get the index of the space character (" ") in custName.
+        //hello
 
 
         // Use the substring method to parse out the first name and print it.
