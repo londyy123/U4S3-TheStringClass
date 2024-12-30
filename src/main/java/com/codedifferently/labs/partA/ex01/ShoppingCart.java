@@ -14,6 +14,7 @@ public class ShoppingCart {
 
         // Use the substring method to parse out the first name and print it.
         firstName = custName.substring(0, spaceIdx);
+        System.out.println("First Name: " + firstName);
         response = firstName;
         return response;
     }
