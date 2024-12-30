@@ -8,11 +8,12 @@ public class ShoppingCart {
         int spaceIdx;
 
         // Get the index of the space character (" ") in custName.
+        custName.indexOf(" ");
         //hello
 
 
         // Use the substring method to parse out the first name and print it.
-
+        
         return response;
     }
     public static void main(String[] args) {
