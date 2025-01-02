@@ -16,7 +16,18 @@ public class NameMaker {
         String middleName = "";
         String lastName = "";
         /* Put your code in between these comments : Top */
+            Scanner scanner = new Scanner (System.in);
 
+            System.out.println("Enter your first name:");
+            firstName = scanner.nextLine();
+
+            System.out.println("Enter your middle name:");
+            middleName = scanner.nextLine();
+
+            System.out.println("Enter your last name:");
+            lastName = scanner.nextLine();
+
+            fullName = 
 
         /* Put your code in between these comments : Bottom */
         String fullName  = nameMaker(firstName, middleName, lastName);
