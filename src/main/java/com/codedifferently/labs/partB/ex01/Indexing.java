@@ -5,8 +5,12 @@ public class Indexing {
         String response = "";
         String myStr = "Hello planet earth, you are a great planet.";
         /* Your code goes here*/
+            int idx1 = myStr.indexOf('e');
+            response += "index of first e: " + idx1 + "\n";
+            int idx2 = myStr.indexOf('e', idx1 + 1);
+            response += "index of second e: " + idx2;
 
-        return response;
+            return response;
     }
 
     public static void main(String[] args) {
