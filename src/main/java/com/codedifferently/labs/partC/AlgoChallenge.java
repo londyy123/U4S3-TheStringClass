@@ -13,8 +13,11 @@ public class AlgoChallenge {
      */
 
     public static String missingLetter(String letter, int n) {
-
-        return null;
+        String response = "";
+        String myStr = "kitten";
+        int idx1 = myStr.indexOf("n");
+        
+        return response;
     }
 
     /* Problem 2
